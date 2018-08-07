@@ -173,7 +173,7 @@ const ProgressBarUploading = (props) => {
     <div class="uppy-StatusBar-content">
       {props.isUploadStarted && !props.isAllComplete
         ? !props.isAllPaused
-          ? <div title="Uploading">{ <PauseResumeButtons {...props} /> } Uploading... { <ThrottledProgressDetails {...props} /> }</div>
+          ? <div title={props.i18n('uploading')}>{<PauseResumeButtons {...props} />} { props.i18n('uploading') } { <ThrottledProgressDetails {...props} /> }</div>
           : <div title="Paused">{ <PauseResumeButtons {...props} /> } Paused・{props.totalProgress}%</div>
         : null
       }
