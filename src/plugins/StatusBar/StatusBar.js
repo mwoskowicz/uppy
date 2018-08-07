@@ -169,6 +169,7 @@ const ProgressBarProcessing = (props) => {
 }
 
 const ProgressBarUploading = (props) => {
+  console.log("PROPS", props)
   return (
     <div class="uppy-StatusBar-content">
       {props.isUploadStarted && !props.isAllComplete
