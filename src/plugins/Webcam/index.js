@@ -47,7 +47,9 @@ module.exports = class Webcam extends Plugin {
 
     const defaultLocale = {
       strings: {
-        smile: 'Smile!'
+        smile: 'Smile!',
+        allowAccessTitle: 'Please allow access to your camera2',
+        allowAccessDescription: 'In order to take pictures or record video with your camera, please allow camera access for this site.'
       }
     }
 
@@ -301,7 +303,8 @@ module.exports = class Webcam extends Plugin {
     const webcamState = this.getPluginState()
 
     if (!webcamState.cameraReady) {
-      return PermissionsScreen(webcamState)
+      // console.log("READY", this.i18n)
+      return PermissionsScreen(this.i18n, webcamState)
     }
 
     return h(CameraScreen, Object.assign({}, webcamState, {

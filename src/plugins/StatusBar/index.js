@@ -18,9 +18,9 @@ module.exports = class StatusBar extends Plugin {
 
     const defaultLocale = {
       strings: {
-        uploading: 'Uploading',
+        uploading: 'UploadingTest',
         uploadComplete: 'Upload complete',
-        uploadFailed: 'Upload failed',
+        uploadFailed: 'Upload faileddd',
         pleasePressRetry: 'Please press Retry to upload again',
         paused: 'Paused',
         error: 'Error',
