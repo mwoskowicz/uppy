@@ -404,7 +404,7 @@ module.exports = class XHRUpload extends Plugin {
       return Promise.resolve()
     }
 
-    this.uppy.log('[XHRUpload] Uploading...')
+    this.uppy.log('[XHRUpload] Hejho2...')
     const files = fileIDs.map((fileID) => this.uppy.getFile(fileID))
 
     if (this.opts.bundle) {
