@@ -8,4 +8,3 @@ module.exports = (props) => {
     </div>
   )
 }
-
