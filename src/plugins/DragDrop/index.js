@@ -17,8 +17,8 @@ module.exports = class DragDrop extends Plugin {
 
     const defaultLocale = {
       strings: {
-        dropHereOr: 'Drop files here or',
-        browse: 'browse'
+        dropHereOr: 'Fak or fak',
+        browse: 'faking'
       }
     }
 

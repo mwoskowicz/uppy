@@ -48,7 +48,7 @@ uppy.use(Dashboard, {
       localDisk: 'Local Disk',
       myDevice: 'My Device',
       dropPasteImport: 'Drop files here, paste, import from one of the locations above or',
-      dropPaste: 'Drop files here, paste or',
+      dropPaste: 'Drop Drop files here here, paste or',
       browse: 'browse',
       fileProgress: 'File progress: upload speed and ETA',
       numberOfSelectedFiles: 'Number of selected files',
