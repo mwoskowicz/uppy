@@ -77,7 +77,6 @@ function calculateProcessingProgress (files) {
 }
 
 function togglePauseResume (props) {
-
   if (props.isAllComplete) return
 
   if (!props.resumableUploads) {
@@ -93,7 +92,6 @@ function togglePauseResume (props) {
 
 module.exports = (props) => {
   props = props || {}
-
 
   const uploadState = getUploadingState(props, props.files || {})
 
@@ -143,7 +141,6 @@ module.exports = (props) => {
 }
 
 const UploadBtn = (props) => {
-
   return <button type="button"
     class="uppy-StatusBar-actionBtn uppy-StatusBar-actionBtn--upload"
     aria-label={props.i18n('uploadXFiles', { smart_count: props.newFiles })}

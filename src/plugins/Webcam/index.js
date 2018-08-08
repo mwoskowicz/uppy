@@ -48,7 +48,7 @@ module.exports = class Webcam extends Plugin {
     const defaultLocale = {
       strings: {
         smile: 'Smile!',
-        allowAccessTitle: 'Please allow access to your camera2',
+        allowAccessTitle: 'Please allow access to your camera',
         allowAccessDescription: 'In order to take pictures or record video with your camera, please allow camera access for this site.'
       }
     }
